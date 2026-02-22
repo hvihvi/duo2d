@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b05s60g43xjf2"]
 
 [ext_resource type="Texture2D" uid="uid://hdc1wusu0xrn" path="res://characters/1/white16x8@32x32.png" id="1_g04q2"]
+[ext_resource type="Script" uid="uid://bjuo6ajpghwdj" path="res://characters/1/character_1.gd" id="1_o7nfu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o7nfu"]
 size = Vector2(8, 16)
@@ -21,6 +22,7 @@ animations = [{
 }]
 
 [node name="Character1" type="CharacterBody2D" unique_id=621931096]
+script = ExtResource("1_o7nfu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=497515449]
 shape = SubResource("RectangleShape2D_o7nfu")
