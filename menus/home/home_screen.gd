@@ -43,9 +43,7 @@ func _input(event: InputEvent) -> void:
 
 
 func _on_play_pressed() -> void:
-	print("play pressed")
-	# TODO: start game / switch to game scene
-	pass
+	get_tree().change_scene_to_file("res://menus/home/resume/resume_screen.tscn")
 
 
 func _on_settings_pressed() -> void:
