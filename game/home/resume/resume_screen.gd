@@ -79,4 +79,4 @@ func _on_new_game_pressed() -> void:
 
 
 func _on_back_pressed() -> void:
-	get_tree().change_scene_to_file("res://menus/home/home_screen.tscn")
+	get_tree().change_scene_to_file("res://game/home/home_screen.tscn")

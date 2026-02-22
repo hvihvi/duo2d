@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dqe7nqubs5vhv"]
 
-[ext_resource type="PackedScene" uid="uid://d4lgvfpfe2ndu" path="res://menus/home/home_cta.tscn" id="1_cta"]
-[ext_resource type="Script" uid="uid://8rdrto7y37gh" path="res://menus/home/resume/resume_screen.gd" id="2_script"]
+[ext_resource type="PackedScene" uid="uid://d4lgvfpfe2ndu" path="res://ui/cta/home_cta.tscn" id="1_cta"]
+[ext_resource type="Script" uid="uid://8rdrto7y37gh" path="res://game/home/resume/resume_screen.gd" id="2_script"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_title"]
 font_size = 200
