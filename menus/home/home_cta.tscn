@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d4lgvfpfe2ndu"]
+
+[ext_resource type="Theme" uid="uid://dgxl0g6jsgksr" path="res://menus/home/home_cta.tres" id="2_theme"]
+
+[node name="HomeCta" type="Button" unique_id=1855178053]
+offset_right = 8.0
+offset_bottom = 8.0
+theme = ExtResource("2_theme")
+theme_type_variation = &"FlatButton"
+text = "Placeholder"
